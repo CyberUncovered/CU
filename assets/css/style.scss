@@ -1,0 +1,33 @@
+.testbox{
+  background-color: #404040;
+  width: 650px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px 1px #5D5D5D;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+      flex-direction: column;
+  }
+}
+
+.flex-child {
+  flex: 1;
+  background-color: #404040;
+  width: 650px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px 1px #5D5D5D;
+  margin: 0;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
